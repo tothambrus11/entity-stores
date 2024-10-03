@@ -1,0 +1,9 @@
+{
+    "lldb.library": "/home/ambrus/Downloads/swift-6.0.1-RELEASE-debian12/usr/lib/liblldb.so",
+    "lldb.launch.expressions": "native",
+    "swift.path": "/home/ambrus/Downloads/swift-6.0.1-RELEASE-debian12/usr/bin",
+    "swift.swiftEnvironmentVariables": {
+        "DEVELOPER_DIR": "public"
+    },
+    "swift.sourcekit-lsp.backgroundIndexing": true
+}

@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:entity-stores}",
+            "name": "Debug entity-stores",
+            "program": "${workspaceFolder:entity-stores}/.build/debug/entity-stores",
+            "preLaunchTask": "swift: Build Debug entity-stores"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:entity-stores}",
+            "name": "Release entity-stores",
+            "program": "${workspaceFolder:entity-stores}/.build/release/entity-stores",
+            "preLaunchTask": "swift: Build Release entity-stores"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:entity-stores}",
+            "name": "Debug MyNewBenchmarkTarget",
+            "program": "${workspaceFolder:entity-stores}/.build/debug/MyNewBenchmarkTarget",
+            "preLaunchTask": "swift: Build Debug MyNewBenchmarkTarget"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:entity-stores}",
+            "name": "Release MyNewBenchmarkTarget",
+            "program": "${workspaceFolder:entity-stores}/.build/release/MyNewBenchmarkTarget",
+            "preLaunchTask": "swift: Build Release MyNewBenchmarkTarget"
+        }
+    ]
+}
